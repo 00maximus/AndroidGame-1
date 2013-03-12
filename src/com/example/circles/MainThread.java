@@ -1,15 +1,10 @@
-package com.example.droidz;
-
-import java.text.DecimalFormat;
+package com.example.circles;
 
 import android.graphics.Canvas;
 import android.util.Log;
 import android.view.SurfaceHolder;
 
-
 /**
- * @author impaler
- *
  * The Main thread which contains the game loop. The thread must have access to 
  * the surface view and holder to trigger events every game tick.
  */

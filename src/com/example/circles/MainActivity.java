@@ -1,5 +1,6 @@
-package com.example.droidz;
+package com.example.circles;
 
+import com.example.circles.R;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
@@ -20,6 +21,7 @@ public class MainActivity extends Activity {
         		WindowManager.LayoutParams.FLAG_FULLSCREEN);
         
         setContentView(new MainGamePanel(this));
+        
         Log.d(TAG,"View added");
     }
 
